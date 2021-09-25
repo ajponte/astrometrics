@@ -1,0 +1,4 @@
+# custom errors
+class AstrometricsError(Exception):
+    def __init__(self, msg):
+        super().__init__(self, msg)
